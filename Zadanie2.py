@@ -58,7 +58,7 @@ while flag:
             if choise == '2':
                 matrix1 = matrixInput()
                 matrix2 = matrixInput()
-                print(multiply(matrix1, matrix2))
+                print("Ответом является: ", multiply(matrix1, matrix2))
 
                 break
             if choise == '3':

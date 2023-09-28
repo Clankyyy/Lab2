@@ -44,6 +44,6 @@ def inverse():
 
 
 #print("erwe")
-print(timeit.timeit("npInverse()", setup="from __main__ import npInverse", number = 10))
-print(timeit.timeit("inverse()", setup="from __main__ import inverse", number = 10))
+print("NumPy result: ", timeit.timeit("npInverse()", setup="from __main__ import npInverse", number = 10), " secs")
+print("User defined function result: ", timeit.timeit("inverse()", setup="from __main__ import inverse", number = 10)," secs")
 

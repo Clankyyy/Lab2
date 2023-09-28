@@ -120,7 +120,7 @@ while flag:
         choise = input()
         if choise.isdigit and choise in ['1', '2', '3']:
             if choise == '1':
-                print(transpose(matrixInput()))
+                transpose(matrixInput())
                 break
             if choise == '2':
                 matrix1 = matrixInput()
